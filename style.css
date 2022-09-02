@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100vw;
+    height: 5rem;
+    background-color: #4D4F90;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.btn2 {
+    padding: 12px 25px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin-top: 2rem;
+}
+
+.textbox {
+    width: 55vw;
+}
+
+.miniheading {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.buttontwo {
+    padding: 13px 26px;
+    background-color: #4D4F90;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4rem;
+}
+
+.threeimages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.bluebox {
+    width: 100vw;
+    height: 25rem;
+    background-color: #4D4F90;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blueboxtext {
+    width: 55vw;
+    height: 22rem;
+    color: #fff;
+}
+
+.paratext {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+}
+
+.footer {
+    width: 100vw;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line {
+    width: 100vw;
+    height: 2px;
+    background-color: #000;
+}
+
+.bold {
+    font-weight: bold;
+}
