@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #E1E1E1;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100vw;
+    height: 5rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    height: 3rem;
+}
+
+.links a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.textbox {
+    width: 55vw;
+    height: 32rem;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bluecolor {
+    color: #5A6FBB;
+    margin-top: 15px;
+}
+
+.mainheading {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.boxandimage {
+    width: 100vw;
+    height: 25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxandimagetextbox {
+    width: 60vw;
+    height: 23rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.boxheading {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.miniboxheading {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 26px;
+    padding-right: 1rem;
+}
+
+.threebox {
+    width: 100vw;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.onebox {
+    width: 24vw;
+    height: 18rem;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.actortext {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.footer {
+    height: 14rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: center;
+}
