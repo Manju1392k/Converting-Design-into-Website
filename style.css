@@ -1,0 +1,128 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    width:100vw;
+    height:5rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid #41B853;
+    border-top: 5px solid #000;
+}
+
+.logotext{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo img{
+    height:3rem;
+}
+
+.links a{
+    color:#000;
+    text-decoration: none;
+    margin-left: 22px;
+}
+
+.btnone{
+    margin-left: 3rem;
+    padding:14px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border:none;
+    background-color: #41B853;
+    color:#fff;
+    font-weight: bold;
+}
+
+.btntwo{
+    padding:14px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border:none;
+    background-color: #fff;
+    color:#000;
+    font-weight: bold;
+    border:3px solid #41B853;
+    margin-left: 10px;
+}
+
+.main{
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.maintext{
+    width: 40vw;
+    height:25rem;
+}
+
+.maintext p{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.heading{
+    font-weight: bold;
+}
+
+.textheading{
+    text-align: center;
+    font-weight: bold;
+    margin-top:4rem;
+    margin-bottom:4rem;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.services img{
+    width: 16vw;
+}
+
+.cartext{
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textboxcar{
+    width:55vw;
+    height:25rem;
+}
+
+.textboxcar p{
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+
+.footer{
+    width:100vw;
+    height:12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4rem;
+}
