@@ -133,3 +133,129 @@ body {
 .one2 {
     width: 15vw;
 }
+
+.mobilenavbar {
+    display: none;
+}
+
+.menubar {
+    display: none;
+}
+
+/* meida queries for responsive design */
+
+@media screen and (max-width: 1030px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .main {
+        width: 100vw;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .imagebox img {
+        width: 80vw;
+        margin-bottom: 2rem;
+    }
+
+    .textbox {
+        width: 80vw;
+        height: max-content;
+    }
+
+    .btn2 {
+        width: 80vw;
+        margin-top: 2rem;
+    }
+
+    .threeimagesbox {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .threeimagesbox img {
+        margin-top: 2rem;
+    }
+
+    .box {
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .box img {
+        width: 80vw;
+        margin-top: 2rem;
+        height: max-content;
+    }
+
+    .minitextbox {
+        width: 80vw;
+        height: max-content;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .minidiv {
+        margin-top: 2rem;
+    }
+
+    .one {
+        width: 80vw;
+        height: max-content;
+        margin-top: 2rem;
+    }
+
+    .one2 {
+        width: 80vw;
+        height: max-content;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .mobilenavbar {
+        display: flex;
+        background-color: #AE06CA;
+        color: #fff;
+        height: 4rem;
+        width: 100vw;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mobilelogo {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .menubar {
+        display: none;
+        position: fixed;
+        background-color: #AE06CA;
+        width: 100vw;
+        height: 20rem;
+        top: 0;
+        flex-direction: column;
+    }
+
+    .menubar a {
+        text-align: center;
+        margin-top: 2rem;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    #CloseBtn {
+        display: flex;
+        margin-left: 82vw;
+        margin-top: 2rem;
+    }
+
+}
