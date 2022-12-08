@@ -118,3 +118,116 @@ body {
 .bold {
     font-weight: bold;
 }
+
+.mobilenavbar {
+    display: none;
+}
+
+.menubar {
+    display: none;
+}
+
+/* media quries for responsive design */
+
+@media screen and (max-width: 1030px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .maindiv {
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .imagebox {
+        width: 80vw;
+        height: max-content;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .imagebox img {
+        width: 70vw;
+    }
+
+    .textbox {
+        width: 80vw;
+        height: max-content;
+    }
+
+    .threeimages {
+        width: 100vw;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .bluebox {
+        width: 100vw;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .bluebox img {
+        width: 70vw;
+        height: max-content;
+        margin-top: 2rem;
+    }
+
+    .blueboxtext {
+        width: 85vw;
+        height: max-content;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .mobilenavbar {
+        display: flex;
+        background-color: #4D4F90;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        height: 5rem;
+    }
+
+    .mobilelogo {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .menubar {
+        display: none;
+        background-color: #4D4F90;
+        width: 100vw;
+        height: 22rem;
+        position: fixed;
+        top: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menubar a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    #closebtn {
+        margin-left: 80vw;
+    }
+
+    .btn2Mobile {
+        padding: 12px 23px;
+        background-color: #fff;
+        border: none;
+        border-radius: 11px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+}
