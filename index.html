@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link rel="shortcut icon" href="/logo1.png" type="image/png">
 
 </head>
+
 <body>
 
     <div class="navbar">
@@ -33,6 +35,42 @@
 
     </div>
 
+    <!-- mobilephone navbar -->
+
+    <div class="mobilephonenavbar">
+
+        <div class="iconandtext">
+            <img src="/logo1.png" alt="">
+            Sm Ctr Showroom
+        </div>
+
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" class="bi bi-list"
+                viewBox="0 0 16 16" onclick="OpenMenu()">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </div>
+
+        <div class="menubar" id="menubar_mobile">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black class=" bi bi-x-lg"
+                viewBox="0 0 16 16" id="closeicon" onclick="CloseMenu()">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+            </svg>
+
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Location</a>
+
+            <button type="button" class="btnonemobile">CallNow</button>
+            <button type="button" class="btntwomobile">SignUP</button>
+        </div>
+
+    </div>
+
     <div class="main">
         <div class="imagebox">
             <img src="/mainlogo.png">
@@ -46,7 +84,12 @@
 
             <h1 class="heading">Sm Ctr Showroom Best Car Selling Company</h1>
 
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum</p>
 
         </div>
 
@@ -84,7 +127,12 @@
 
             <h1>We Sell Best Premium Quality and Luxury Cars</h1>
 
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum</p>
 
 
         </div>
@@ -95,9 +143,24 @@
 
         <h2>For More Details Contant Cell: 090-22335</h2>
 
-        <h2>For Query and Any other <br> Information Please Visit Our <br>  Showroom in Your Area</h2>
+        <h2>For Query and Any other <br> Information Please Visit Our <br> Showroom in Your Area</h2>
 
     </div>
-    
+
+    <script>
+
+        let Menu_Bar = document.getElementById('menubar_mobile')
+
+        function OpenMenu() {
+            Menu_Bar.style.display = 'flex'
+        }
+
+        function CloseMenu() {
+            Menu_Bar.style.display = 'none'
+        }
+
+    </script>
+
 </body>
+
 </html>
